@@ -1,0 +1,95 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Georgia, Serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+nav {
+  letter-spacing: 4px;
+}
+
+.brand-name:hover,
+.nav-item:hover {
+  background-color: #ccc;
+}
+
+header {
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+section {
+  max-width: 1100px;
+}
+
+.content-image {
+  opacity: 0.75!important;
+  object-fit: cover;
+}
+
+.about-title,
+.about-year,
+.menu-title,
+.menu-food,
+.contact-title {
+  letter-spacing: 5px;
+}
+
+.seasonal {
+  background-color: #f1f1f1;
+}
+
+.contact-address {
+  color: #607d8b;
+}
+
+.contact-input {
+  border-bottom: 1px solid #ccc;
+  font-size: 0.75rem;
+
+  &:focus {
+    box-shadow: none;
+    border: 2px solid black!important;
+  }
+}
+
+.contact-btn {
+  background-color: #f1f1f1;
+  font-size: 0.75rem;
+
+  &:focus {
+    box-shadow: none;
+    border: 2px solid black;
+  }
+
+  &:hover {
+      background-color: #ccc;
+  }
+}
+
+footer {
+    background-color: #f1f1f1;
+}

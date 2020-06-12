@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Template 1</title>
+    <link href="/dist/css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-white w-100 px-3 py-2 justify-content-between shadow-sm sticky-top"
+    >
+      <!--brand name-->
+      <a class="brand-name text-dark small px-2 py-1" href="#">Gourmet au Catering</a>
+
+      <button
+        class="navbar-toggler border-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon small"></span>
+      </button>
+
+      <!--links-->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-0 small text-center">
+          <li class="nav-item">
+            <a class="nav-link text-dark px-2 py-1" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark px-2 py-1" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark px-2 py-1" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <!--header image-->
+      <header>
+        <img src="/dist/files/hamburger.jpg" alt="image" class="header-image w-100" />
+        <h1 class="header-text h2 px-3 py-2 font-weight-lighter">Le Catering</h1>
+      </header>
+
+      <section class="px-3 m-auto">
+        <!--about-->
+        <div
+          class="d-flex flex-column-reverse flex-md-row align-items-center justify-content-md-between flex-nowrap py-5"
+          id="about"
+        >
+          <img
+            src="/dist/files/tablesetting2.jpg"
+            alt="image"
+            class="content-image rounded align-self-baseline img-fluid col-12 col-md-6 p-0 mt-2 mt-md-0 mx-auto"
+          />
+
+          <div class="align-self-md-stretch p-0 pl-md-5">
+            <h2 class="about-title text-center pb-4">About Catering</h2>
+            <h3 class="about-year text-center h6 pb-3">Tradition since 1889</h3>
+
+            <p>
+              The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use
+              <span class="seasonal px-2 py-1">seasonal</span> ingredients.
+            </p>
+
+            <p class="d-none d-lg-block text-secondary">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <!--menu-->
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-md-between flex-nowrap py-5"
+          id="menu"
+        >
+          <div class="align-self-md-stretch p-0 pr-md-5">
+            <h2 class="menu-title text-center pb-4">Our Menu</h2>
+
+            <div class="pb-3">
+              <p class="menu-food mb-2">Bread Basket</p>
+              <p class="text-secondary small">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            </div>
+            <div class="pb-3">
+              <p class="menu-food mb-2">Honey Almond Granola with Fruits</p>
+              <p class="text-secondary small">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            </div>
+            <div class="pb-3">
+              <p class="menu-food mb-2">Belgian Waffle</p>
+              <p class="text-secondary small">Vanilla flavored batter with malted flour 7.50</p>
+            </div>
+            <div class="pb-3">
+              <p class="menu-food mb-2">Scrambled eggs</p>
+              <p class="text-secondary small">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            </div>
+            <div class="pb-3">
+              <p class="menu-food mb-2">Blueberry Pancakes</p>
+              <p class="text-secondary small">With syrup, butter and lots of berries 8.50</p>
+            </div>
+          </div>
+
+          <img
+            src="/dist/files/tablesetting.jpg"
+            alt="image"
+            class="content-image rounded align-self-baseline img-fluid col-12 col-md-6 p-0 mt-2 mt-md-0 mx-auto"
+          />
+        </div>
+
+        <hr />
+
+        <!--contact-->
+        <div class="py-5" id="contact">
+          <h2 class="contact-title pb-4">Contact</h2>
+
+          <p class="small">
+            We offer full-service catering for any event, large or small. We understand your needs and we will cater the
+            food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.
+          </p>
+
+          <p class="contact-address font-weight-bolder">Catering Service, 42nd Living St, 43043 New York, NY</p>
+
+          <p class="small">
+            You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message
+            here:
+          </p>
+
+          <form>
+            <input
+              type="text"
+              placeholder="Name"
+              required
+              class="contact-input form-control form-control-lg border-top-0 border-right-0 border-left-0 rounded-0 mb-3"
+            />
+            <input
+              type="number"
+              placeholder="How many people"
+              required
+              class="contact-input form-control form-control-lg border-top-0 border-right-0 border-left-0 rounded-0 mb-3"
+            />
+            <input
+              type="datetime-local"
+              value="2017-11-16T20:00"
+              required
+              class="contact-input form-control form-control-lg border-top-0 border-right-0 border-left-0 rounded-0 mb-3"
+            />
+            <input
+              type="text"
+              placeholder="Message \ Special requirements"
+              required
+              class="contact-input form-control form-control-lg border-top-0 border-right-0 border-left-0 rounded-0 mb-4"
+            />
+
+            <button type="submit" class="contact-btn btn rounded-0">SEND MESSAGE</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="jumbotron jumbotron-fluid m-0 text-center small py-5">
+      Powered by
+      <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" class="text-dark border-bottom border-dark"
+        >w3.css</a
+      >
+    </footer>
+
+    <script src="/dist/js/index.js"></script>
+  </body>
+</html>
